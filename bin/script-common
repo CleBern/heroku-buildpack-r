@@ -65,7 +65,7 @@ plumber_archive() {
 }
 
 function s3_url() {
-  echo "https://${BUILDPACK_NAME}.s3.amazonaws.com/${BUILDPACK_VERSION}/${1}"
+  echo "https://cran.r-project.org/bin/linux/ubuntu/binaries/R-4.2.2.tar.gz"
 }
 
 cache_filename_for() {
