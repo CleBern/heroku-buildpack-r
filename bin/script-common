@@ -65,7 +65,7 @@ plumber_archive() {
 }
 
 function s3_url() {
-  echo "https://cran.r-project.org/bin/linux/ubuntu/binaries/R-4.2.2.tar.gz"
+  echo "https://github.com/rocker-org/rocker/releases/download/v4.2.2/r-ver-4.2.2.tar.gz"
 }
 
 cache_filename_for() {
